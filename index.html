@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Pandey — CS Student & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="site-header">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo">AP<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Hello, I'm</p>
+        <h1 class="hero-name">
+          Aman<span class="accent"> Pandey</span><span class="cursor">|</span>
+        </h1>
+        <p class="hero-role">Computer Science Student <span class="divider">&amp;</span> Web Developer</p>
+        <p class="hero-location">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          Uttar Pradesh, India
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-graphic" aria-hidden="true">
+        <div class="code-block">
+          <span class="cb-line"><span class="cb-kw">const</span> <span class="cb-var">developer</span> = {</span>
+          <span class="cb-line cb-indent"><span class="cb-key">name</span>: <span class="cb-str">"Aman Pandey"</span>,</span>
+          <span class="cb-line cb-indent"><span class="cb-key">role</span>: <span class="cb-str">"CS Student"</span>,</span>
+          <span class="cb-line cb-indent"><span class="cb-key">loves</span>: [<span class="cb-str">"DSA"</span>, <span class="cb-str">"Web Dev"</span>],</span>
+          <span class="cb-line cb-indent"><span class="cb-key">brewing</span>: <span class="cb-str">"next project"</span></span>
+          <span class="cb-line">};</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <div class="section-inner">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a Computer Science student with a genuine enthusiasm for building things on the web and solving complex algorithmic challenges. Whether it's crafting clean, responsive interfaces or working through a tricky data structure problem, I bring curiosity and persistence to everything I work on.
+            </p>
+            <p>
+              My focus areas include <strong>Web Development</strong>, <strong>Problem Solving</strong>, <strong>Data Structures &amp; Algorithms</strong>, and continuously expanding my tech stack. I believe great software is built at the intersection of thoughtful design and solid engineering.
+            </p>
+            <p>
+              Based in Uttar Pradesh, India, I'm always looking for opportunities to learn, collaborate, and contribute to meaningful projects.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="stat-card">
+              <span class="stat-num accent">CS</span>
+              <span class="stat-label">Student</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num accent">Web</span>
+              <span class="stat-label">Developer</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num accent">DSA</span>
+              <span class="stat-label">Enthusiast</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num accent">Open</span>
+              <span class="stat-label">to Collaborate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section-alt">
+      <div class="section-inner">
+        <div class="section-label">What I Know</div>
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4l4 4-4 4M12 16h8"/></svg>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, accessibility, and structured content for modern web pages.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
+            </div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts with Flexbox, Grid, animations, and custom properties.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14.5 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, event handling, async/await, and API integration.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.657 3.582 3 8 3s8-1.343 8-3V6"/><path d="M4 12v6c0 1.657 3.582 3 8 3s8-1.343 8-3v-6"/></svg>
+            </div>
+            <h3>MongoDB</h3>
+            <p>NoSQL database design, CRUD operations, and schema modeling with Mongoose.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Node.js</h3>
+            <p>Server-side JavaScript, REST APIs, Express.js, and backend architecture.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+            </div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control, branching strategies, pull requests, and collaborative workflows.</p>
+          </article>
+
+          <article class="skill-card skill-card--wide">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/></svg>
+            </div>
+            <h3>Data Structures &amp; Algorithms</h3>
+            <p>Arrays, linked lists, trees, graphs, dynamic programming, and competitive problem-solving on platforms like LeetCode.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <div class="section-label">What I've Built</div>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.5 19H9a7 7 0 117-7v1"/><path d="M17 12l5 5-5 5"/></svg>
+              </div>
+              <div class="project-links">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">API</span>
+              </div>
+            </div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">
+              Displays real-time weather information for the user's current location as well as any searched location. Fetches live data from a Weather API and presents temperature, humidity, wind speed, and conditions with a clean, intuitive UI.
+            </p>
+            <div class="project-footer">
+              <span class="project-meta">Personal Project</span>
+            </div>
+          </article>
+
+          <!-- Placeholder card for more projects -->
+          <article class="project-card project-card--placeholder">
+            <div class="placeholder-inner">
+              <div class="placeholder-icon" aria-hidden="true">+</div>
+              <p>More projects coming soon</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section-alt">
+      <div class="section-inner contact-inner">
+        <div class="section-label">Say Hello</div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-sub">
+          Whether you have a project idea, an opportunity, or just want to connect — my inbox is open. I'll do my best to get back to you promptly.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:aman@example.com" class="contact-value">aman@example.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/amanpandey" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/amanpandey</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Uttar Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <p class="footer-logo">AP<span class="accent">.</span></p>
+      <p class="footer-copy">Designed &amp; built by <strong>Aman Pandey</strong> &mdash; Uttar Pradesh, India</p>
+      <p class="footer-note">Made with HTML5, CSS3 &amp; JavaScript &mdash; no frameworks, no shortcuts.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
